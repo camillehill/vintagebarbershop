@@ -24,15 +24,15 @@ $ViewGalleryBtn = "<button><a href='gallery.php'>View Gallery</a></button>";
 
 $header =
 "<header>
-    echo $Navigation;
+    $Navigation
     <h1>Vintage Barbershop</h1>
-    echo $BookBtn;
+    $BookBtn
 </header>";
 
 $footer =
 "<footer>
     <h2 id=\"footerHeader\">Vintage Barbershop</h2>
-    echo $Navigation;
+    $Navigation
 
     <div class=\"social-media\">
         <a href=\"https://www.instagram.com\"> </a>
