@@ -8,7 +8,7 @@ $HTMLHeader =
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
     <link rel=\"text/css\" type=\"stylesheet\" href=\"style.css\">
     <title>Vintage Barbershop | Mansfield, Dallas-Fort Worth</title>
-</head>"
+</head>";
 
 $Navigation =
 "<nav>
@@ -17,17 +17,17 @@ $Navigation =
         <li class=\"nav-link\"><a href=\"about.php\">About</a></li>
         <li class=\"nav-link\"><a href=\"gallery.php\">Gallery</a></li>
     </ul>
-</nav>"
+</nav>";
 
 $BookBtn = "<button><a href='https://www.vagaro.com/us04/vintagebarbershop1'>Book Now</a></button>";
-$ViewGalleryBtn = "<button><a href='gallery.php'>View Gallery</a></button>"
+$ViewGalleryBtn = "<button><a href='gallery.php'>View Gallery</a></button>";
 
 $header =
 "<header>
     echo $Navigation;
     <h1>Vintage Barbershop</h1>
     echo $BookBtn;
-</header>"
+</header>";
 
 $footer =
 "<footer>
@@ -41,7 +41,7 @@ $footer =
     <hr>
     <p>© 2021 Vintage Barbershop, LLC</p>
 </footer>
-</html>"
+</html>";
 
 ?>
 
