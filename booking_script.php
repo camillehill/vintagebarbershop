@@ -51,10 +51,10 @@
   		$output = "
   		<table style='border: 1px solid black; text-align:left;'>
   		<th>Your Appointment</th>
-  				<tr style='border: 1px solid black;'><th>Author:</th> <td style='border: 1px solid black;'>$author</td> </tr>
-  				<tr style='border: 1px solid black;'><th>Title:</th> <td style='border: 1px solid black;'>$title</td> </tr>
-  				<tr style='border: 1px solid black;'><th>Tag:</th> <td style='border: 1px solid black;'>$tagStr</td> </tr>
-  				<tr style='border: 1px solid black;'><th>Comment:</th> <br><td style='border: 1px solid black;'>$comment</td> </tr>
+  				<tr style='border: 1px solid black;'><th>Date:</th> <td style='border: 1px solid black;'>$date</td> </tr>
+  				<tr style='border: 1px solid black;'><th>Time:</th> <td style='border: 1px solid black;'>$time</td> </tr>
+  				<tr style='border: 1px solid black;'><th>Service:</th> <td style='border: 1px solid black;'>$service_type</td> </tr>
+  				<tr style='border: 1px solid black;'><th>Special Instructions:</th> <br><td style='border: 1px solid black;'>$specialinstructions</td> </tr>
   		</table>
   				";
 
@@ -70,7 +70,7 @@
 
 
   } else {
-  	$output = "Please post your message using <a href='post_form_3.php'>this form</a>.";
+  	$output = "Please book an appointment using <a href='booking_script.php'>this form</a>.";
   }
 
 
