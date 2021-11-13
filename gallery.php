@@ -30,17 +30,17 @@
 <h2>Fades</h2>
 <section class="img_gallery">
   <img src="img/Gallery Images/fades/fade_1_205x275.png">
-  <img src="img/Gallery Images/Top 7 images/fades/fade_2_733x733">
-  <img src="img/Gallery Images/Top 7 images/fades/fade_6_519x449.png">
-  <img src="img/Gallery Images/Top 7 images/fades/fade_5_315x352.png">
-  <img src="img/Gallery Images/Top 7 images/fades/fade_3_860x960.png">
-  <img src="img/Gallery Images/Top 7 images/fades/fades_7_595x563.png">
+  <img src="img/Gallery Images/fades/fade_2_733x733">
+  <img src="img/Gallery Images/fades/fade_6_519x449.png">
+  <img src="img/Gallery Images/fades/fade_5_315x352.png">
+  <img src="img/Gallery Images/fades/fade_3_860x960.png">
+  <img src="img/Gallery Images/fades/fades_7_595x563.png">
 </section>
 
 <h2>Military Cuts</h2>
 <section class="img_gallery">
-  <img src="img/Gallery Images/military cuts/military_2_249x275">
-  <img src="img/Gallery Images/Top 7 images/military cuts/military_3_206x275.png">
+  <img src="img/Gallery Images/military cuts/military_2_249x275.png">
+  <img src="img/Gallery Images/military cuts/military_3_206x275.png">
 </section>
 
 <h2>We welcome children of all ages!</h2>
