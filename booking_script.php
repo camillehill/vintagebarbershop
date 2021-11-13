@@ -11,8 +11,8 @@
   	//  - check required fields
 
   	//== Modify the required and expected arrays below to fit your form ========
-  	$required = array('title', 'author','comment','city');
-  	$expected = array('title', 'author','comment','tag', 'city','backgroundColor','email');
+  	$required = array('name','phonenumber','service_type','date','time');
+  	$expected = array('name', 'phonenumber','email','service_type','specialinstructions','date','time');
   	$missing = array();
 
   	// use foreach loop to run through each item in the expected array
@@ -48,19 +48,9 @@
   	if (empty($missing)){
   		// empty($missing) is true --> no missing field, proceed with business processes (in this example, display all user input.)
 
-  		// deal with array input, ex. $tag
-  		$tagStr = implode(", ", $tag);
-
-  		// print_r ($tag); // enable this line will print the $tag array, so you can see what's been stored in the $tag array.  It may help you to debug.
-
-  		// process author name and email
-  		if (!empty($email)) {
-  			$author = "<a href='mailto:$email'>$author</a>";
-  		}
-
   		$output = "
-  		<table style='background-color: $backgroundColor; border: 1px solid black; text-align:left;'>
-  		<th>Your Message</th>
+  		<table style='border: 1px solid black; text-align:left;'>
+  		<th>Your Appointment</th>
   				<tr style='border: 1px solid black;'><th>Author:</th> <td style='border: 1px solid black;'>$author</td> </tr>
   				<tr style='border: 1px solid black;'><th>Title:</th> <td style='border: 1px solid black;'>$title</td> </tr>
   				<tr style='border: 1px solid black;'><th>Tag:</th> <td style='border: 1px solid black;'>$tagStr</td> </tr>
