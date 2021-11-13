@@ -3,8 +3,8 @@
 ?>
 
 <?php
-    echo $HTMLHeader;
-    echo $header;
+    echo "$HTMLHeader;"
+    echo "$header;"
 ?>
 
 <body>
@@ -12,7 +12,7 @@
     <section class="hero">
         <h1>Mansfield's Premier Barbershop</h1>
         <p>A throwback barbershop experience with a modern touch.</p>
-        <?php echo $BookBtn ?>
+        <?php echo "$BookBtn"; ?>
     </section>
     <main>
         <section class="services">
