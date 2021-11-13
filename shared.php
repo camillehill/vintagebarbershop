@@ -1,5 +1,5 @@
 <?php
-$HTMLHeader = 
+$HTMLHeader =
 "<!DOCTYPE html>
 <html lang=\"en\">
 <head>
@@ -10,7 +10,7 @@ $HTMLHeader =
     <title>Vintage Barbershop | Mansfield, Dallas-Fort Worth</title>
 </head>"
 
-$Navgiation = 
+$Navigation =
 "<nav>
     <ul class=\"nav-items\">
         <li class=\"nav-link\"><a href=\"index.php\">Home</a></li>
@@ -21,17 +21,17 @@ $Navgiation =
 
 $BookBtn = "<button><a href=\"#\">Book Now</a></button>";
 
-$header = 
+$header =
 "<header>
     echo $Navigation;
     <h1>Vintage Barbershop</h1>
-    echo $BookBtn 
+    echo $BookBtn;
 </header>"
 
-$footer = 
+$footer =
 "<footer>
     <h2 id=\"footerHeader\">Vintage Barbershop</h2>
-    echo $Navgiation 
+    echo $Navigation;
 
     <div class=\"social-media\">
         <a href=\"https://www.instagram.com\"> </a>
