@@ -21,10 +21,10 @@
 <h2>Beards</h2>
 <section class="img_gallery">
   <img src="img/Gallery Images/beards/beard_3_275x206.png">
-  <img src="img/Gallery Images/Top 7 images/beards/beard_5_220x275.png">
-  <img src="img/Gallery Images/Top 7 images/beards/beard_1_206x275">
-  <img src="img/Gallery Images/Top 7 images/beards/beard_4_275x275.png">
-  <img src="img/Gallery Images/Top 7 images/beards/beard_2_206x275.png">
+  <img src="img/Gallery Images/beards/beard_5_220x275.png">
+  <img src="img/Gallery Images/beards/beard_1_206x275.png">
+  <img src="img/Gallery Images/beards/beard_4_275x275.png">
+  <img src="img/Gallery Images/beards/beard_2_206x275.png">
 </section>
 
 <h2>Fades</h2>
