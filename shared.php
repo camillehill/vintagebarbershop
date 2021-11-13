@@ -19,7 +19,7 @@ $Navigation =
     </ul>
 </nav>"
 
-$BookBtn = "<button><a href=\"#\">Book Now</a></button>";
+$BookBtn = "<button><a href='https://www.vagaro.com/us04/vintagebarbershop1'>Book Now</a></button>";
 
 $header =
 "<header>
