@@ -3,8 +3,8 @@
 ?>
 
 <?php
-    echo "$HTMLHeader;"
-    echo "$header;"
+    echo "$HTMLHeader";
+    echo "$header";
 ?>
 
 <body>
