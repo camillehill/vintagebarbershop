@@ -14,7 +14,6 @@
         <p>A throwback barbershop experience with a modern touch.</p>
         <?php echo $BookBtn ?>
     </section>
-
     <main>
         <section class="services">
             <h2>Our Services</h2>
