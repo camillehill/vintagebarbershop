@@ -59,9 +59,7 @@
         <section class="location-hours">
 
             <!-- Left side: Google maps iFrame -->
-          <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen
-            src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJyznHUndhToYRsjMS4XTJf2I&key=...">
-          </iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13445.903655362958!2d-97.1414829!3d32.5934983!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x627fc974e11233b2!2sVintage%20Barbershop%20LLC!5e0!3m2!1sen!2sus!4v1636830523506!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           <!-- Right side: text -->
           <h2> Location & Hours </h2>
           <div>
