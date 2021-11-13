@@ -19,9 +19,10 @@
     <option value="beardtrim">Beard trim</option>
     <option value="shave">Hot lather shave</option>
   </select>
-
-	Special Instructions : <br/><textarea name="specialinstructions" rows="5" cols="40"></textarea><br>
-	<input type="Submit" name="SubmitThis" value="Preview">
+  <br>
+	Special Instructions :
+  <br/><textarea name="specialinstructions" rows="5" cols="40"></textarea><br>
+	<input type="Submit" name="SubmitThis" value="Submit">
   </form>
 
 
