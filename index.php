@@ -16,7 +16,7 @@
     </section>
     <main>
         <section class="services">
-            <h2>Our Services</h2>
+            <h2 id="ourservices_h2">Our Services</h2>
             <table>
                 <tr>
                     <td>Men's Regular Haircut</td>
