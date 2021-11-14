@@ -10,7 +10,7 @@
 <body>
     <!-- hero section-->
     <section class="hero">
-        <h1>Mansfield's Premier Barbershop</h1>
+        <h2>Mansfield's premier barbershop</h2>
         <p>A throwback barbershop experience with a modern touch.</p>
         <?php echo "$BookBtn"; ?>
     </section>
