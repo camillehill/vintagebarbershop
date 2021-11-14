@@ -69,3 +69,46 @@ td{
   text-align:center;
   color:white;
 }
+
+/*Location & Hours */
+.location-hours{
+  display:flex;
+  justify-content:center;}
+#right_side_LH{
+  display:flex;
+  flex-direction:row;
+  margin-left:10px;
+}
+#hours{
+  margin-left:20px;
+  display:flex;
+  flex-direction:column;
+}
+#location{
+  display:flex;
+  flex-direction:column;
+}
+
+/* Our Staff */
+.our-staff{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 32px;
+  grid-row-gap: 0px;
+  }
+
+  #holly { grid-area: 1 / 1 / 2 / 2; }
+  #penni { grid-area: 1 / 2 / 2 / 3; }
+  #sean { grid-area: 1 / 3 / 2 / 4; }
+  #kendra { grid-area: 1 / 4 / 2 / 5; }
+
+}
+
+/*Keeping Mansfield */
+
+.keeping_mansfield{
+  background-color:black;
+  color:white;
+
+}
