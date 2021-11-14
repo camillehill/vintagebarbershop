@@ -108,8 +108,8 @@
             <figcaption>Kendra</figcaption>
           </div>
         </section>
-        <section class="keeping_mansfield">
-          <h2>Keeping Mansfield Looking sharp since 2008</h2>
+        <section class="keeping-mansfield">
+          <h2 id="keeping_h2">Keeping Mansfield Looking sharp since 2008</h2>
           <p>From hot lather shaves and beard sculpting to flat tops, fades and military cuts, you'll look your best when you leave our shop.</p>
           <br>
           <p>Book an appointment with a professional who knows men's hair.</p>

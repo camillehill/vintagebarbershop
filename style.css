@@ -103,12 +103,10 @@ td{
   #sean { grid-area: 1 / 3 / 2 / 4; }
   #kendra { grid-area: 1 / 4 / 2 / 5; }
 
-}
-
 /*Keeping Mansfield */
 
-.keeping_mansfield{
+.keeping-mansfield{
   background-color:black;
   color:white;
-
+  text-align:center;
 }
