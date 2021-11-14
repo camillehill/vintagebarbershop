@@ -1,3 +1,21 @@
+/* Navigation Bar */
+nav{
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+.nav-items .nav-link{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  color:#ffffff;
+}
+.nav a {
+  display:inline-block;
+  padding:10px;}
+
+/*Hero Image */
 .hero{
   /* The hero image */
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
@@ -16,10 +34,4 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-}
-.nav-items .nav-link{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: inline;
 }

@@ -13,13 +13,13 @@ $HTMLHeader =
 $Navigation =
 "<nav>
     <ul class=\"nav-items\">
-        <li class=\"nav-link\"><a href=\"index.php\">Home</a></li>
-        <li class=\"nav-link\"><a href=\"about.php\">About</a></li>
-        <li class=\"nav-link\"><a href=\"gallery.php\">Gallery</a></li>
+        <li class=\"nav-link\"><a href=\"index.php\">HOME</a></li>
+        <li class=\"nav-link\"><a href=\"about.php\">ABOUT</a></li>
+        <li class=\"nav-link\"><a href=\"gallery.php\">GALLERY</a></li>
     </ul>
 </nav>";
 
-$BookBtn = "<button><a href='booking.php'>Book Now</a></button>";
+$BookBtn = "<button><a href='booking.php'>BOOK NOW</a></button>";
 $ViewGalleryBtn = "<button><a href='gallery.php'>View Gallery</a></button>";
 
 $header =
