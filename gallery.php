@@ -10,7 +10,7 @@
 <h2>Our Work</h2>
 <!--First 6 images -->
 <section class="img_gallery">
-  <img src="img/Gallery Images/Top 7 images/top6_6_edited_originalsize.png">
+  <img src="img/Gallery Images/Top 7 images/top6_6_171x250.png">
   <img src="img/Gallery Images/Top 7 images/top6_4_169x250.png">
   <img src="img/Gallery Images/Top 7 images/top6_1_236x250.png">
   <img src="img/Gallery Images/Top 7 images/top6_2_254x250.png">
