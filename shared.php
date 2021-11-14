@@ -40,7 +40,7 @@ $footer =
         <a href=\"https://www.yelp.com\"></a>
     </div>
     <hr>
-    <p>© 2021 Vintage Barbershop, LLC | Disclaimer: this website was created an Internet Marketing Communication course in Fall 2021, for educational purposes only. Visit <a href='https://www.thevintage-barbershop.com/'>Vintage Barbershop.com</a> for the actual company website.</p>
+    <p>© 2021 Vintage Barbershop, LLC | Disclaimer: this website was created for the Internet Marketing Communication course in Fall 2021, for educational purposes only. Visit <a href='https://www.thevintage-barbershop.com/'>Vintage Barbershop.com</a> for the actual company website.</p>
 </footer>
 </html>";
 
