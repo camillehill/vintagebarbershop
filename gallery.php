@@ -34,7 +34,7 @@
   <img src="img/Gallery Images/fades/fade_6_519x449.png">
   <img src="img/Gallery Images/fades/fade_5_315x352.png">
   <img src="img/Gallery Images/fades/fade_3_860x960.png">
-  <img src="img/Gallery Images/fades/fades_7_595x563.png">
+  <img src="img/Gallery Images/fades/fade_7_595x563.png">
 </section>
 
 <h2>Military Cuts</h2>
