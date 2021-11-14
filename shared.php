@@ -16,6 +16,7 @@ $Navigation =
         <li class=\"nav-link\"><a href=\"index.php\">HOME</a></li>
         <li class=\"nav-link\"><a href=\"about.php\">ABOUT</a></li>
         <li class=\"nav-link\"><a href=\"gallery.php\">GALLERY</a></li>
+        <li class=\"nav-link\"><a href='booking.php'>BOOK NOW</a></li>
     </ul>
 </nav>";
 
@@ -26,7 +27,7 @@ $header =
 "<header>
     $Navigation
     <h1>Vintage Barbershop</h1>
-    $BookBtn
+    
 </header>";
 
 $footer =
