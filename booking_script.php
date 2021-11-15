@@ -12,7 +12,7 @@
 
   	//== Modify the required and expected arrays below to fit your form ========
   	$required = array('name','phonenumber','service_type','date','time');
-  	$expected = array('name', 'phonenumber','email','service_type','specialinstructions','date','time');
+  	$expected = array('name', 'phonenumber','email','service_type','specialinstructions','date','time','DOB');
   	$missing = array();
 
   	// use foreach loop to run through each item in the expected array
@@ -50,7 +50,7 @@
 
   		$output = "
   		<table style='border: 1px solid black; text-align:left;'>
-  		<th>Your Appointment</th>
+  		<th>Thanks, $Name! We'll see you on $date at $time. Show this confirmation at checkout for 20% off!</th>
   				<tr style='border: 1px solid black;'><th>Date:</th> <td style='border: 1px solid black;'>$date</td> </tr>
   				<tr style='border: 1px solid black;'><th>Time:</th> <td style='border: 1px solid black;'>$time</td> </tr>
   				<tr style='border: 1px solid black;'><th>Service:</th> <td style='border: 1px solid black;'>$service_type</td> </tr>
