@@ -35,9 +35,11 @@
   Will need its own php script, not booking_script.php
   -->
 
-   <form action= "new_customer_script.php" method="post">
+   <form action= "returning_customer_script.php" method="post">
 
     <h2> Returning Customers</h2>
+    <br>
+    <h3><i>We remember you! Just enter your phone number and the date, time and service requested. We'll take care of the rest.</i></h3>
     <br>
     * Required fields
     <br>

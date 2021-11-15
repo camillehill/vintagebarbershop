@@ -16,11 +16,12 @@ nav{
   padding:0;
 }
 button {
+  font-family:Arial, sans-serif;
   margin: .5em;
 	font-size: 1em;
 	text-transform: capitalize;
-	background-color:red;
-	color:white;
+	background-color:white;
+	color:black;
 	border: 2px solid black;
 	padding:5px;
 	border-radius:4px;}
