@@ -52,6 +52,7 @@
       <option value="haircut">Haircut</option>
       <option value="beardtrim">Beard trim</option>
       <option value="shave">Hot lather shave</option>
+      <option value="usual">The usual</option>
     </select>
     <br>
   	Special Instructions :
