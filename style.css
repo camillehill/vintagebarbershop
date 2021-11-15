@@ -15,6 +15,15 @@ nav{
   display:inline-block;
   padding:0;
 }
+button {
+  margin: .5em;
+	font-size: 1em;
+	text-transform: capitalize;
+	background-color:red;
+	color:white;
+	border: 2px solid black;
+	padding:5px;
+	border-radius:4px;}
 
 /*Hero Image */
 .hero{
@@ -115,6 +124,25 @@ td{
   text-align:center;
 }
 /*Booking Confirmation Page */
-.booking{
-  background-color:black;
+.booking{color:black;
+}
+
+/*Form Styling */
+form{
+  text-align:center;
+  margin: 0 auto;
+	width:50%;
+
+	padding:1em;
+	border:3px solid black;
+	border-radius:1em;
+  margin-bottom:10px;
+
+  background-color:white;
+	border:3px solid black;
+}
+#outside {
+	background-color:lightblue;
+	padding-top:25px;
+	padding-bottom:25px;
 }
