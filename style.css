@@ -26,7 +26,7 @@ button {
 	padding:5px;
 	border-radius:4px;}
 
-/*Hero Image */
+/*Hero Section */
 .hero{
   /* The hero image */
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
@@ -48,6 +48,11 @@ button {
 
 .hero h2{
   padding-top:20px;}
+
+.credibility-badge {
+  width:150px;
+  border-radius:8px;
+}
 
 /* Headings */
 h1{

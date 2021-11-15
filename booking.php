@@ -59,6 +59,7 @@
   	<input type="Submit" name="SubmitThis" value="Submit">
     </form>
 </div>
-
+<br>
+<img src="img/SSL_icon.png" id="SSLimage">
 
 <?php echo $footer ?>

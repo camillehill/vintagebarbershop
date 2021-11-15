@@ -9,12 +9,16 @@
 
 <body>
     <!-- hero section-->
-    <section class="hero">
-        <h2>Mansfield's premier barbershop</h2>
-        <p>A throwback barbershop experience with a modern touch.</p>
-        <?php echo "$BookBtn"; ?>
-    </section>
+
     <main>
+      <section class="hero">
+          <h2>Mansfield's premier barbershop</h2>
+          <p>A throwback barbershop experience with a modern touch.</p>
+          <?php echo "$BookBtn"; ?>
+          <br>
+          <img src="img/yelpstars.png" id="yelpstars" class="credibility-badge">
+          <img src="img/googlereviews.png" id="googlereviews" class="credibility-badge">
+      </section>
         <section class="services">
             <h2 id="ourservices_h2">Our Services</h2>
             <table>
