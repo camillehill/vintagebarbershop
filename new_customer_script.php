@@ -11,8 +11,8 @@
   	//  - check required fields
 
   	//== Modify the required and expected arrays below to fit your form ========
-  	$required = array('name','phonenumber','service_type','date','time');
-  	$expected = array('name', 'phonenumber','email','service_type','specialinstructions','date','time');
+  	$required = array('phonenumber','service_type','date','time');
+  	$expected = array('phonenumber','email','service_type','specialinstructions','date','time');
   	$missing = array();
 
   	// use foreach loop to run through each item in the expected array
