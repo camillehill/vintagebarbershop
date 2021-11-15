@@ -50,7 +50,7 @@
 
   		$output = "
   		<table style='border: 1px solid black; text-align:left;'>
-  		<th>Your Appointment</th>
+  		<th>Hi James! We're excited to see you again on $date. Here are your appointment details:</th>
   				<tr style='border: 1px solid black;'><th>Date:</th> <td style='border: 1px solid black;'>$date</td> </tr>
   				<tr style='border: 1px solid black;'><th>Time:</th> <td style='border: 1px solid black;'>$time</td> </tr>
   				<tr style='border: 1px solid black;'><th>Service:</th> <td style='border: 1px solid black;'>$service_type</td> </tr>

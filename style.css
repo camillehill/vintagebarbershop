@@ -59,15 +59,19 @@ h2{
   align-content:center;
   justify-content:center;
   color:white;
+  background-color:black;
 }
+
 tr {
   margin-bottom:10px;
   color:white;
+  background-color:black;
 }
 td{
   margin-right:25px;
   text-align:center;
   color:white;
+  background-color:black;
 }
 
 /*Location & Hours */
@@ -109,4 +113,8 @@ td{
   background-color:black;
   color:white;
   text-align:center;
+}
+/*Booking Confirmation Page */
+.booking{
+  background-color:black;
 }
