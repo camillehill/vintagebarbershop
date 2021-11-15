@@ -110,10 +110,11 @@ td{
 
 /* Our Staff */
 .our-staff{
+  margin-left: 10%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 32px;
+  grid-column-gap: 5px;
   grid-row-gap: 0px;
   }
 
@@ -122,6 +123,8 @@ td{
   #sean { grid-area: 1 / 3 / 2 / 4; }
   #kendra { grid-area: 1 / 4 / 2 / 5; }
 
+.staffimg{
+  width:250px;}
 /*Keeping Mansfield */
 
 .keeping-mansfield{
@@ -151,4 +154,41 @@ form{
 	background-color:lightblue;
 	padding-top:25px;
 	padding-bottom:25px;
+}
+
+/*Our Work */
+.our_work{
+  display:block;
+  margin: auto;
+}
+#ourwork_images{
+  margin-left:10%;
+}
+
+/*Our Story */
+.ourstory{
+  text-align:center;
+  margin: 0 auto;
+	width:50%;
+
+	padding:1em;
+	border:3px solid black;
+	border-radius:1em;
+  margin-bottom:10px;
+
+  background-color:white;
+	border:3px solid black;
+}
+.testimonial-box{
+  text-align:center;
+  margin: 0 auto;
+	width:50%;
+
+	padding:1em;
+	border:3px solid black;
+	border-radius:1em;
+  margin-bottom:10px;
+
+  background-color:white;
+	border:3px solid black;
 }

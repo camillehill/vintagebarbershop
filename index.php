@@ -96,19 +96,19 @@
         <section class="our-staff">
 
           <div id="holly">
-            <img src="img/employees/holly_418x418.png">
+            <img src="img/employees/holly_418x418.png" class="staffimg">
             <figcaption>Holly</figcaption>
           </div>
           <div id="penni">
-            <img src="img/employees/penni_418x418.png">
+            <img src="img/employees/penni_418x418.png" class="staffimg">
             <figcaption>Penni</figcaption>
           </div>
           <div id="sean">
-            <img src="img/employees/sean_418x418.png">
+            <img src="img/employees/sean_418x418.png" class="staffimg">
             <figcaption>Sean</figcaption>
           </div>
           <div id="kendra">
-            <img src="img/employees/kendra_418x418.png">
+            <img src="img/employees/kendra_418x418.png" class="staffimg">
             <figcaption>Kendra</figcaption>
           </div>
         </section>
@@ -121,14 +121,16 @@
         </section>
         <section class="our_work">
           <h2>Our Work</h2>
-          <img src="img/Gallery Images/Top 7 images/top6_3_189x250.png">
-          <img src="img/Gallery Images/Top 7 images/top6_5_194x250.png">
-          <img src="img/Gallery Images/Top 7 images/top6_6_171x250.png">
-          <img src="img/Gallery Images/Top 7 images/top6_4_169x250.png">
-          <img src="img/Gallery Images/Top 7 images/top6_1_236x250.png">
-          <img src="img/Gallery Images/Top 7 images/top6_2_254x250.png">
-          <?php echo $ViewGalleryBtn ?>
+          <div id="ourwork_images">
+            <img src="img/Gallery Images/Top 7 images/top6_3_189x250.png">
+            <img src="img/Gallery Images/Top 7 images/top6_5_194x250.png">
+            <img src="img/Gallery Images/Top 7 images/top6_6_171x250.png">
+            <img src="img/Gallery Images/Top 7 images/top6_4_169x250.png">
+            <img src="img/Gallery Images/Top 7 images/top6_1_236x250.png">
+            <img src="img/Gallery Images/Top 7 images/top6_2_254x250.png">
+          </div>
         </section>
+        <?php echo $ViewGalleryBtn ?>
     </main>
 </body>
 
