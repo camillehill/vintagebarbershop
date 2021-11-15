@@ -11,54 +11,54 @@
     <!-- hero section-->
 
     <main>
-      <section class="hero">
-          <h2>Mansfield's premier barbershop</h2>
-          <p>A throwback barbershop experience with a modern touch.</p>
-          <?php echo "$BookBtn"; ?>
-          <br>
-          <img src="img/yelpstars.png" id="yelpstars" class="credibility-badge">
-          <img src="img/googlereviews.png" id="googlereviews" class="credibility-badge">
-      </section>
+        <section class="hero">
+            <h2>Mansfield's premier barbershop</h2>
+            <p>A throwback barbershop experience with a modern touch.</p>
+            <?php echo "$BookBtn"; ?>
+            <br>
+            <img src="img/yelpstars.png" id="yelpstars" class="credibility-badge">
+            <img src="img/googlereviews.png" id="googlereviews" class="credibility-badge">
+        </section>
         <section class="services">
-            <h2 id="ourservices_h2">Our Services</h2>
-            <table>
-                <tr>
-                    <td>Men's Regular Haircut</td>
-                    <td>$25</td>
-                </tr>
-                <tr>
-                    <td>Razor Fade</td>
-                    <td>$30</td>
-                </tr>
-                <tr>
-                    <td>Flat Top</td>
-                    <td>$27</td>
-                </tr>
-                <tr>
-                    <td>Specialty Cuts</td>
-                    <td>$30 and up</td>
-                </tr>
-                <tr>
-                    <td>Beard Trim</td>
-                    <td>$5-15</td>
-                </tr>
-                <tr>
-                    <td>Shaves</td>
-                    <td>$30-35</td>
-                </tr>
-                <tr>
-                    <td>Kids (ages up to 8)</td>
-                    <td>$20</td>
-                </tr>
-                <tr>
-                    <td>Kids (ages 8-15)</td>
-                    <td>$22</td>
-                </tr>
-                <tr>
-                    <td>Woman's Cut</td>
-                    <td>$25 and up</td>
-                </tr>
-            </table>
+          <h2 id="ourservices_h2">Our Services</h2>
+          <table>
+              <tr>
+                  <td>Men's Regular Haircut</td>
+                  <td>$25</td>
+              </tr>
+              <tr>
+                  <td>Razor Fade</td>
+                  <td>$30</td>
+              </tr>
+              <tr>
+                  <td>Flat Top</td>
+                  <td>$27</td>
+              </tr>
+              <tr>
+                  <td>Specialty Cuts</td>
+                  <td>$30 and up</td>
+              </tr>
+              <tr>
+                  <td>Beard Trim</td>
+                  <td>$5-15</td>
+              </tr>
+              <tr>
+                  <td>Shaves</td>
+                  <td>$30-35</td>
+              </tr>
+              <tr>
+                  <td>Kids (ages up to 8)</td>
+                  <td>$20</td>
+              </tr>
+              <tr>
+                  <td>Kids (ages 8-15)</td>
+                  <td>$22</td>
+              </tr>
+              <tr>
+                  <td>Woman's Cut</td>
+                  <td>$25 and up</td>
+              </tr>
+          </table>
         </section>
         <section class="location-hours">
 
@@ -92,6 +92,17 @@
             </div>
           </div>
         </section>
+        <section class="our_work">
+          <h2>Our Work</h2>
+          <div id="ourwork_images">
+            <img src="img/Gallery Images/Top 7 images/top6_3_189x250.png">
+            <img src="img/Gallery Images/Top 7 images/top6_5_194x250.png">
+            <img src="img/Gallery Images/Top 7 images/top6_6_171x250.png">
+            <img src="img/Gallery Images/Top 7 images/top6_4_169x250.png">
+            <img src="img/Gallery Images/Top 7 images/top6_1_236x250.png">
+            <img src="img/Gallery Images/Top 7 images/top6_2_254x250.png">
+          </div>
+        </section>
         <h2>Our Staff</h2>
         <section class="our-staff">
 
@@ -119,17 +130,7 @@
           <p>Book an appointment with a professional who knows men's hair.</p>
           <?php echo $BookBtn ?>
         </section>
-        <section class="our_work">
-          <h2>Our Work</h2>
-          <div id="ourwork_images">
-            <img src="img/Gallery Images/Top 7 images/top6_3_189x250.png">
-            <img src="img/Gallery Images/Top 7 images/top6_5_194x250.png">
-            <img src="img/Gallery Images/Top 7 images/top6_6_171x250.png">
-            <img src="img/Gallery Images/Top 7 images/top6_4_169x250.png">
-            <img src="img/Gallery Images/Top 7 images/top6_1_236x250.png">
-            <img src="img/Gallery Images/Top 7 images/top6_2_254x250.png">
-          </div>
-        </section>
+
         <?php echo $ViewGalleryBtn ?>
     </main>
 </body>
