@@ -164,9 +164,11 @@ button {
   width:200px;
   height:100px;
   border-radius:10px;
+  border:none;
   margin-top:10px;
   margin-bottom:15px;
-  background-image: linear-gradient(180deg, red, yellow);}
+  background-image: linear-gradient(180deg, red, yellow);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);}
 
 
 
