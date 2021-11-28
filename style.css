@@ -2,13 +2,34 @@
 /*SINGLE-COLUMN LAYOUT FOR ALL PAGES*/
 /*********/
 
-body{display:flex;
+body{
+  display:flex;
   flex-direction:column;
   width:50%;
   margin:0 auto;
   font-family:Arial, Segoe UI, sans-serif;
 }
+/*********/
+/*STYLING ALL LINKS*/
+/*********/
+a:link{
+  font-size:18px;
+  color:black;
+}
 
+a:visited{
+  color:black;
+  font-size:18px;
+}
+
+a:hover{
+  color:black;
+  font-size:18px;
+}
+a:active{
+  color:black;
+  font-size:18;
+}
 /*********/
 /*HEADINGS FOR ALL PAGES*/
 /*********/
@@ -136,7 +157,12 @@ button {
 	font-size: 1em;
 	text-transform: capitalize;
 	background-color:white;
-	color:black;}
+	color:white;
+  width:200px;
+  height:100px;
+  border-radius:10px;
+  margin-bottom:15px;
+  background-image: linear-gradient(180deg, red, yellow);}
 
 
 
@@ -160,6 +186,8 @@ form{
 }
 
 
+
+
 /*********/
 /*GALLERY PAGE*/
 /*********/
@@ -171,3 +199,40 @@ form{
   width:auto;
   margin:10px;
 }
+
+
+
+
+
+
+/*********/
+/*ABOUT PAGE*/
+/*********/
+.testimonial-box{
+  text-align:center;
+}
+img.storefrontimg{
+  max-width:100%;
+  overflow:hidden;
+}
+
+
+
+
+
+/*********/
+/*NEW OR RETURNING CUSTOMER PAGE/
+/*********/
+  div#new_or_returning{
+  text-align:center;
+  }
+
+  /*********/
+  /*NEW CUSTOMER BOOKING PAGE*/
+  /*********/
+
+  img#SSLimage{
+    max-width:120px;
+    height:auto;
+    margin:0 auto;
+  }

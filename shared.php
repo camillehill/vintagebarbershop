@@ -10,7 +10,7 @@ $HTMLHeader =
     <title>Vintage Barbershop | Mansfield, Dallas-Fort Worth</title>
 </head>";
 
-$Navigation =
+$Navigationwithlogo =
 "
 <nav>
 <img src='img/logo/vintage_cropped.png' style='width:450px;' alt='vintage barbershop logo'>
@@ -22,20 +22,33 @@ $Navigation =
     </ul>
 </nav>";
 
+$Navigationwithoutlogo =
+"
+<nav>
+    <ul class=\"nav-items\">
+        <li class=\"nav-link\"><a href=\"index.php\">HOME</a></li>
+        <li class=\"nav-link\"><a href=\"about.php\">ABOUT</a></li>
+        <li class=\"nav-link\"><a href=\"gallery.php\">GALLERY</a></li>
+        <li class=\"nav-link\"><a href='new_or_returning.php'>BOOK NOW</a></li>
+    </ul>
+</nav>";
+
 $BookBtn = "<button><a href='new_or_returning.php'>BOOK NOW</a></button>";
+$BookBtnNewCustomer ="<button><a href='booking_new_customer.php'>BOOK NOW</a></button>";
+$BookBtnReturningCustomer ="<button><a href='booking_returning_customer.php'>BOOK NOW</a></button>";
 $ViewGalleryBtn = "<button><a href='gallery.php'>View Gallery</a></button>";
 
 $header =
 "<header>
-    $Navigation
+    $Navigationwithlogo
 
 
 </header>";
 
 $footer =
 "<footer>
-    <h2 id=\"footerHeader\">Vintage Barbershop</h2>
-    $Navigation
+
+    $Navigationwithoutlogo
 
     <div class=\"social-media\">
         <a href=\"https://www.instagram.com\"> </a>
