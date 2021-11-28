@@ -178,17 +178,3 @@
 </body>
 
 <?php echo $footer ?>
-<!-- Navigation links, "book now" button
-
-hero section with image, h1, "book now" button?
-
-h2 - Our Services
-
-h2 - "about us" blurb
-
-h2 - "our staff" images
-
-"our location" section
-
-footer
- -->
