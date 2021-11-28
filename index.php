@@ -60,11 +60,15 @@
           </table>
         </section>
         <section class="location-hours homepage">
-
+          <h2>Location & Hours</h2>
             <!-- Left side: Google maps iFrame -->
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13445.903655362958!2d-97.1414829!3d32.5934983!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x627fc974e11233b2!2sVintage%20Barbershop%20LLC!5e0!3m2!1sen!2sus!4v1636830523506!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
           <br>
+          <p>We are located at the southwest corner of the intersection of Highway 287 and Debbie Lane, just east of Spring Creek Barbecue.</p>
+          <p>Our address is:</p>
+          <p>26 E Debbie Ln #104</p>
+          <p>Mansfield, TX 76063</p>
           <!-- Right side: text -->
 
             <!-- Commenting this part out b/c our google maps iframe already contains this info
@@ -101,12 +105,12 @@
         <section class="our_work homepage">
           <h2>Our Work</h2>
           <div id="ourwork_images">
-            <img src="img/Gallery Images/Top 7 images/top6_3_189x250.png">
-            <img src="img/Gallery Images/Top 7 images/top6_5_194x250.png">
-            <img src="img/Gallery Images/Top 7 images/top6_6_171x250.png">
-            <img src="img/Gallery Images/Top 7 images/top6_4_169x250.png">
-            <img src="img/Gallery Images/Top 7 images/top6_1_236x250.png">
-            <img src="img/Gallery Images/Top 7 images/top6_2_254x250.png">
+            <img class="haircut" src="img/Gallery Images/Top 7 images/top6_3_189x250.png">
+            <img class="haircut" src="img/Gallery Images/Top 7 images/top6_5_194x250.png">
+            <img class="haircut" src="img/Gallery Images/Top 7 images/top6_6_171x250.png">
+            <img class="haircut" src="img/Gallery Images/Top 7 images/top6_4_169x250.png">
+            <img class="haircut" src="img/Gallery Images/Top 7 images/top6_1_236x250.png">
+            <img class="haircut" src="img/Gallery Images/Top 7 images/top6_2_254x250.png">
           </div>
         </section>
         <section class="our-staff homepage">
