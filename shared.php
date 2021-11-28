@@ -11,8 +11,9 @@ $HTMLHeader =
 </head>";
 
 $Navigation =
-"<nav>
-    <a href='index.php'><img class='logo' src='img/logo/vintage_cropped.png'></a>
+"
+<nav>
+<img src='img/logo/vintage_cropped.png' style='width:450px;' alt='vintage barbershop logo'>
     <ul class=\"nav-items\">
         <li class=\"nav-link\"><a href=\"index.php\">HOME</a></li>
         <li class=\"nav-link\"><a href=\"about.php\">ABOUT</a></li>
@@ -27,7 +28,7 @@ $ViewGalleryBtn = "<button><a href='gallery.php'>View Gallery</a></button>";
 $header =
 "<header>
     $Navigation
-    
+
 
 </header>";
 
@@ -47,11 +48,3 @@ $footer =
 </html>";
 
 ?>
-
-
-<!-- What do we need to put in the shared file? -> What components do we want to re-use across the site?
-Some ideas:
-html header
-navigation links code
-footer code
-"book now" button code -->
