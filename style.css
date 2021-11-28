@@ -46,6 +46,18 @@ body{display:flex;
     }
 
     /*OUR STAFF SECTION */
+    .our-staff{
+      display: flex;
+      flex-direction:row;
+      margin-bottom:10px;
+    }
+    img.staffimg{
+      max-width:200px;
+    }
+    .headshot{
+      margin:10px;
+    }
+
 
     /*KEEPNG MANSFIELD LOOKING SHARP SECTION */
 

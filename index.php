@@ -113,23 +113,25 @@
             <img class="haircut" src="img/Gallery Images/Top 7 images/top6_2_254x250.png">
           </div>
         </section>
-        <section class="our-staff homepage">
+        <section class="homepage">
           <h2>Our Staff</h2>
-          <div id="holly">
-            <img src="img/employees/holly_418x418.png" class="staffimg">
-            <figcaption>Holly</figcaption>
-          </div>
-          <div id="penni">
-            <img src="img/employees/penni_418x418.png" class="staffimg">
-            <figcaption>Penni</figcaption>
-          </div>
-          <div id="sean">
-            <img src="img/employees/sean_418x418.png" class="staffimg">
-            <figcaption>Sean</figcaption>
-          </div>
-          <div id="kendra">
-            <img src="img/employees/kendra_418x418.png" class="staffimg">
-            <figcaption>Kendra</figcaption>
+          <div class="our-staff">
+            <div class="headshot">
+              <img src="img/employees/holly_418x418.png" class="staffimg">
+              <figcaption>Holly</figcaption>
+            </div>
+            <div class="headshot">
+              <img src="img/employees/penni_418x418.png" class="staffimg">
+              <figcaption>Penni</figcaption>
+            </div>
+            <div class="headshot">
+              <img src="img/employees/sean_418x418.png" class="staffimg">
+              <figcaption>Sean</figcaption>
+            </div>
+            <div class="headshot">
+              <img src="img/employees/kendra_418x418.png" class="staffimg">
+              <figcaption>Kendra</figcaption>
+            </div>
           </div>
         </section>
         <section class="keeping-mansfield homepage">
@@ -182,7 +184,8 @@
           <a href="https://www.yelp.com/biz/vintage-barbershop-mansfield"><img src="img/yelpstars.png" id="yelpstars" class="credibility-badge"></a>
           <a href="https://www.google.com/search?q=vintage+barber+shop+mansfield+tx&oq=vintage+baber&aqs=chrome.2.69i57j0i10i433i457j0i402j46i10i175i199j0i10l6.3987j0j9&sourceid=chrome&ie=UTF-8#lrd=0x864e617752c739cb:0x627fc974e11233b2,1,,,"><img src="img/googlereviews.png" id="googlereviews" class="credibility-badge"></a>
         </section>
-      </div>
+
+        </div>
 
         <?php echo $ViewGalleryBtn ?>
     </main>
