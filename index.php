@@ -11,6 +11,7 @@
     <!-- hero section-->
 
     <main>
+      <div class="outside_homepage">
         <section class="hero homepage">
             <h2>Mansfield's premier barbershop</h2>
             <p>A throwback barbershop experience with a modern touch.</p>
@@ -132,8 +133,9 @@
           <?php echo $BookBtn ?>
         </section>
         <section class="testimonials homepage">
-          
+
         </section>
+      </div>
 
         <?php echo $ViewGalleryBtn ?>
     </main>
