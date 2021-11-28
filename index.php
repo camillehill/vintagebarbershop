@@ -136,7 +136,18 @@
           <h2>What Our Customers Are Saying:</h2>
           <div class="testimonial_card">
             <h3 class="testimonial_name">Andre Gonzalez</h3>
+            <!--image of customer could go here? headshot? -->
             <p class="testimonial_paragraph">So I’m older now and I need a bit more work than I used to. Sean shaved and trimmed my beard so fine that I felt beautiful. I’m a grown man and I am saying that it was great to feel beautiful!!  Thanks Sean.</p>
+          </div>
+          <div class="testimonial_card">
+            <h3 class="testimonial_name">Steven Fennell</h3>
+            <!--image of customer could go here? headshot? -->
+            <p class="testimonial_paragraph">Everyone is great here. They cut your hair the way you ask for.  Highly recommend.</p>
+          </div>
+          <div class="testimonial_card">
+            <h3 class="testimonial_name">Matthew Schultz</h3>
+            <!--image of customer could go here? headshot? -->
+            <p class="testimonial_paragraph">Make an appointment for a great haircut experience. Went in for my first time and the barbers were really cool they were making conversation asking about my day and making jokes. It was a good time and the haircut with a straight razor and beard trim turned out great. I'll definitely be coming back here.</p>
           </div>
         </section>
       </div>
