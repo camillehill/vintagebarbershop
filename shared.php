@@ -22,7 +22,7 @@ $Navigation =
     </ul>
 </nav>";
 
-$BookBtn = "<button><a href='booking.php'>BOOK NOW</a></button>";
+$BookBtn = "<button><a href='new_or_returning.php'>BOOK NOW</a></button>";
 $ViewGalleryBtn = "<button><a href='gallery.php'>View Gallery</a></button>";
 
 $header =
