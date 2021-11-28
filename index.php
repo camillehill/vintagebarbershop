@@ -133,7 +133,11 @@
           <?php echo $BookBtn ?>
         </section>
         <section class="testimonials homepage">
-
+          <h2>What Our Customers Are Saying:</h2>
+          <div class="testimonial_card">
+            <h3 class="testimonial_name">Andre Gonzalez</h3>
+            <p class="testimonial_paragraph">So I’m older now and I need a bit more work than I used to. Sean shaved and trimmed my beard so fine that I felt beautiful. I’m a grown man and I am saying that it was great to feel beautiful!!  Thanks Sean.</p>
+          </div>
         </section>
       </div>
 
