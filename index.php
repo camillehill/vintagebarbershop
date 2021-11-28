@@ -8,7 +8,7 @@
 ?>
 
 <body>
-    <!-- hero section-->
+  
 
     <main>
       <div class="outside_homepage">
