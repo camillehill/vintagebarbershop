@@ -54,6 +54,7 @@
         <img class="img_gallery" src="img/Gallery Images/Kids Cuts/kids_welcome_7_edited.png">
         <img class="img_gallery" src="img/Gallery Images/Kids Cuts/kids_welcome_6_edited.png">
       </section>
+      <?php echo $BookBtn ?>
     </div>
   </main>
 </body>

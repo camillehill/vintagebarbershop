@@ -51,10 +51,10 @@
   		$output = "
   		<table style='border: 1px solid black; text-align:left;'>
   		<th>Hi James! We're excited to see you again on $date. Here are your appointment details:</th>
-  				<tr style='border: 1px solid black;'><th>Date:</th> <td style='border: 1px solid black;'>$date</td> </tr>
-  				<tr style='border: 1px solid black;'><th>Time:</th> <td style='border: 1px solid black;'>$time</td> </tr>
-  				<tr style='border: 1px solid black;'><th>Service:</th> <td style='border: 1px solid black;'>$service_type</td> </tr>
-  				<tr style='border: 1px solid black;'><th>Special Instructions:</th> <br><td style='border: 1px solid black;'>$specialinstructions</td> </tr>
+  				<tr><th>Date:</th><td>$date</td></tr>
+  				<tr><th>Time:</th><td>$time</td></tr>
+  				<tr><th>Service:</th><td>$service_type</td></tr>
+  				<tr><th>Special Instructions:</th><br><td>$specialinstructions</td></tr>
   		</table>
   				";
 
