@@ -12,6 +12,7 @@ $HTMLHeader =
 
 $Navigation =
 "<nav>
+    <a href='index.php'><img class='logo' src='img/logo/vintage_cropped.png'></a>
     <ul class=\"nav-items\">
         <li class=\"nav-link\"><a href=\"index.php\">HOME</a></li>
         <li class=\"nav-link\"><a href=\"about.php\">ABOUT</a></li>
@@ -26,7 +27,7 @@ $ViewGalleryBtn = "<button><a href='gallery.php'>View Gallery</a></button>";
 $header =
 "<header>
     $Navigation
-    <h1>Vintage Barbershop</h1>
+    
 
 </header>";
 
@@ -40,7 +41,7 @@ $footer =
         <a href=\"https://www.yelp.com\"></a>
     </div>
     <hr>
-    
+
     <p>© 2021 Vintage Barbershop, LLC | Disclaimer: this website was created for the Internet Marketing Communication course in Fall 2021, for educational purposes only. Visit <a href='https://www.thevintage-barbershop.com/'>Vintage Barbershop.com</a> for the actual company website.</p>
 </footer>
 </html>";
