@@ -1,5 +1,5 @@
 /*********/
-/*SINGLE-COLUMN LAYOUT*/
+/*SINGLE-COLUMN LAYOUT FOR ALL PAGES*/
 /*********/
 
 body{display:flex;
@@ -7,9 +7,43 @@ body{display:flex;
   width:50%;
   margin:auto;
 }
-.homepage{
-  margin:auto;
-}
+
+
+
+
+
+/*********/
+/*STYLING HOME PAGE SECTIONS*/
+/*********/
+  /*ALL SECTIONS */
+  .homepage{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-content:center;
+    margin:auto;
+    margin-bottom:15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius:3px;
+  }
+    /*HERO SECTION */
+
+    /*OUR SERVICES SECTION */
+
+    /*MAP/HOURS SECTION */
+
+    /*OUR WORK SECTION */
+
+    /*OUR STAFF SECTION */
+
+    /*KEEPNG MANSFIELD LOOKING SHARP SECTION */
+
+    /*WHAT OUR CUSTOMERS ARE SAYING SECTION */
+
+
+
 
 
 
@@ -62,6 +96,10 @@ button {
 	text-transform: capitalize;
 	background-color:white;
 	color:black;}
+
+
+
+
 
 /*********/
 /*ALL FORMS*/

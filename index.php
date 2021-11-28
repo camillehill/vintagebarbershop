@@ -8,7 +8,7 @@
 ?>
 
 <body>
-  
+
 
     <main>
       <div class="outside_homepage">
@@ -17,8 +17,6 @@
             <p>A throwback barbershop experience with a modern touch.</p>
             <?php echo "$BookBtn"; ?>
             <br>
-            <a href="https://www.yelp.com/biz/vintage-barbershop-mansfield"><img src="img/yelpstars.png" id="yelpstars" class="credibility-badge"></a>
-            <a href="https://www.google.com/search?q=vintage+barber+shop+mansfield+tx&oq=vintage+baber&aqs=chrome.2.69i57j0i10i433i457j0i402j46i10i175i199j0i10l6.3987j0j9&sourceid=chrome&ie=UTF-8#lrd=0x864e617752c739cb:0x627fc974e11233b2,1,,,"><img src="img/googlereviews.png" id="googlereviews" class="credibility-badge"></a>
         </section>
         <section class="services homepage">
           <h2 id="ourservices_h2">Our Services</h2>
@@ -68,7 +66,8 @@
 
           <br>
           <!-- Right side: text -->
-          <div id="right_side_LH">
+
+            <!-- Commenting this part out b/c our google maps iframe already contains this info
 
             <div id="location">
             <h2> Location</h2>
@@ -77,21 +76,27 @@
               <p>Mansfield, TX 76063</p>
               <p>(682) 518-0999</p>
             </div>
+            -->
 
             <br>
-            <div id="hours">
-            <h2>Hours</h2>
 
-              <p>Tuesday-Friday</p>
-              <p>9AM-6PM</p>
-              <br>
-              <p>Saturday</p>
-              <p>9AM-4PM</p>
-              <br>
-              <p>Sunday & Monday</p>
-              <p>Closed</p>
-            </div>
-          </div>
+            <h2>Hours</h2>
+            <table id="hoursTable">
+              <tr>
+              <th>Tuesday-Friday</th>
+              <td>9AM-6PM</td>
+              </tr>
+
+              <tr>
+              <th>Saturday</th>
+              <td>9AM-4PM</td>
+              </tr>
+
+              <tr>
+              <th>Sunday & Monday</th>
+              <td>Closed</td>
+              </tr>
+            </table>
         </section>
         <section class="our_work homepage">
           <h2>Our Work</h2>
@@ -104,9 +109,8 @@
             <img src="img/Gallery Images/Top 7 images/top6_2_254x250.png">
           </div>
         </section>
-        <h2>Our Staff</h2>
         <section class="our-staff homepage">
-
+          <h2>Our Staff</h2>
           <div id="holly">
             <img src="img/employees/holly_418x418.png" class="staffimg">
             <figcaption>Holly</figcaption>
@@ -133,7 +137,7 @@
           <?php echo $BookBtn ?>
         </section>
         <section class="testimonials homepage">
-          <h2>What Our Customers Are Saying On Google Reviews:</h2>
+          <h2>What Our Customers Are Saying:</h2>
           <div class="testimonial_card">
             <h3 class="testimonial_name">Andre Gonzalez</h3>
             <!--image of customer could go here? headshot? -->
@@ -170,6 +174,9 @@
             <span class="fa fa-star checked"></span>
             <p class="testimonial_paragraph">Make an appointment for a great haircut experience. Went in for my first time and the barbers were really cool they were making conversation asking about my day and making jokes. It was a good time and the haircut with a straight razor and beard trim turned out great. I'll definitely be coming back here.</p>
           </div>
+
+          <a href="https://www.yelp.com/biz/vintage-barbershop-mansfield"><img src="img/yelpstars.png" id="yelpstars" class="credibility-badge"></a>
+          <a href="https://www.google.com/search?q=vintage+barber+shop+mansfield+tx&oq=vintage+baber&aqs=chrome.2.69i57j0i10i433i457j0i402j46i10i175i199j0i10l6.3987j0j9&sourceid=chrome&ie=UTF-8#lrd=0x864e617752c739cb:0x627fc974e11233b2,1,,,"><img src="img/googlereviews.png" id="googlereviews" class="credibility-badge"></a>
         </section>
       </div>
 
