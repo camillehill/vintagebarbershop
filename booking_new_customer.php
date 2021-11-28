@@ -8,7 +8,8 @@
 <!--New Customer Form -->
 <div id="outside">
  <form action= "booking_script.php" method="post">
-  <h2> New Customer? Enter your information below for 20% your first haircut!</h2>
+  <h2> New Customer?</h2>
+  <h4>Enter your information below for 20% off your first haircut!</h4>
   <br>
   * Required fields
   <br>
