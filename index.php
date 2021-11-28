@@ -133,20 +133,41 @@
           <?php echo $BookBtn ?>
         </section>
         <section class="testimonials homepage">
-          <h2>What Our Customers Are Saying:</h2>
+          <h2>What Our Customers Are Saying On Google Reviews:</h2>
           <div class="testimonial_card">
             <h3 class="testimonial_name">Andre Gonzalez</h3>
             <!--image of customer could go here? headshot? -->
+            Rating:<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--This is from w3schools.com (https://www.w3schools.com/howto/howto_css_star_rating.asp) -->
+
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
             <p class="testimonial_paragraph">So I’m older now and I need a bit more work than I used to. Sean shaved and trimmed my beard so fine that I felt beautiful. I’m a grown man and I am saying that it was great to feel beautiful!!  Thanks Sean.</p>
           </div>
           <div class="testimonial_card">
             <h3 class="testimonial_name">Steven Fennell</h3>
             <!--image of customer could go here? headshot? -->
+            Rating:
+
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
             <p class="testimonial_paragraph">Everyone is great here. They cut your hair the way you ask for.  Highly recommend.</p>
           </div>
           <div class="testimonial_card">
             <h3 class="testimonial_name">Matthew Schultz</h3>
             <!--image of customer could go here? headshot? -->
+            Rating:
+
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
             <p class="testimonial_paragraph">Make an appointment for a great haircut experience. Went in for my first time and the barbers were really cool they were making conversation asking about my day and making jokes. It was a good time and the haircut with a straight razor and beard trim turned out great. I'll definitely be coming back here.</p>
           </div>
         </section>
