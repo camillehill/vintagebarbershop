@@ -11,7 +11,7 @@
     <!-- hero section-->
 
     <main>
-        <section class="hero">
+        <section class="hero homepage">
             <h2>Mansfield's premier barbershop</h2>
             <p>A throwback barbershop experience with a modern touch.</p>
             <?php echo "$BookBtn"; ?>
@@ -19,7 +19,7 @@
             <a href="https://www.yelp.com/biz/vintage-barbershop-mansfield"><img src="img/yelpstars.png" id="yelpstars" class="credibility-badge"></a>
             <a href="https://www.google.com/search?q=vintage+barber+shop+mansfield+tx&oq=vintage+baber&aqs=chrome.2.69i57j0i10i433i457j0i402j46i10i175i199j0i10l6.3987j0j9&sourceid=chrome&ie=UTF-8#lrd=0x864e617752c739cb:0x627fc974e11233b2,1,,,"><img src="img/googlereviews.png" id="googlereviews" class="credibility-badge"></a>
         </section>
-        <section class="services">
+        <section class="services homepage">
           <h2 id="ourservices_h2">Our Services</h2>
           <table>
               <tr>
@@ -60,7 +60,7 @@
               </tr>
           </table>
         </section>
-        <section class="location-hours">
+        <section class="location-hours homepage">
 
             <!-- Left side: Google maps iFrame -->
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13445.903655362958!2d-97.1414829!3d32.5934983!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x627fc974e11233b2!2sVintage%20Barbershop%20LLC!5e0!3m2!1sen!2sus!4v1636830523506!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -92,7 +92,7 @@
             </div>
           </div>
         </section>
-        <section class="our_work">
+        <section class="our_work homepage">
           <h2>Our Work</h2>
           <div id="ourwork_images">
             <img src="img/Gallery Images/Top 7 images/top6_3_189x250.png">
@@ -104,7 +104,7 @@
           </div>
         </section>
         <h2>Our Staff</h2>
-        <section class="our-staff">
+        <section class="our-staff homepage">
 
           <div id="holly">
             <img src="img/employees/holly_418x418.png" class="staffimg">
@@ -123,12 +123,16 @@
             <figcaption>Kendra</figcaption>
           </div>
         </section>
-        <section class="keeping-mansfield">
+        <section class="keeping-mansfield homepage">
           <h2 id="keeping_h2">Keeping Mansfield Looking sharp since 2008</h2>
           <p>From hot lather shaves and beard sculpting to flat tops, fades and military cuts, you'll look your best when you leave our shop.</p>
           <br>
           <p>Book an appointment with a professional who knows men's hair.</p>
+
           <?php echo $BookBtn ?>
+        </section>
+        <section class="testimonials homepage">
+          
         </section>
 
         <?php echo $ViewGalleryBtn ?>
