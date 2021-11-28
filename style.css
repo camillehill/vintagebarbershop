@@ -5,7 +5,7 @@
 body{display:flex;
   flex-direction:column;
   width:50%;
-  margin:auto;
+  margin:0 auto;
   font-family:Arial, Segoe UI, sans-serif;
 }
 
@@ -23,7 +23,7 @@ h3{
 
 h4{
   font-size:15;}
-  
+
 p{
   font-size:12;
   font-weight:100;}
@@ -156,4 +156,17 @@ form{
 
   background-color:white;
 	border:3px solid black;
+}
+
+
+/*********/
+/*GALLERY PAGE*/
+/*********/
+
+.img_gallery{
+  display:flex;
+  flex-direction:row;
+  height:200px;
+  width:auto;
+  margin:10px;
 }
