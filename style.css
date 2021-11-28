@@ -6,8 +6,27 @@ body{display:flex;
   flex-direction:column;
   width:50%;
   margin:auto;
+  font-family:Arial, Segoe UI, sans-serif;
 }
 
+/*********/
+/*HEADINGS FOR ALL PAGES*/
+/*********/
+h1{
+  font-size:31;}
+
+h2{
+  font-size:25;}
+
+h3{
+  font-size:19;}
+
+h4{
+  font-size:15;}
+  
+p{
+  font-size:12;
+  font-weight:100;}
 
 
 
