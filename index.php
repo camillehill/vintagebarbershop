@@ -13,7 +13,7 @@
     <main>
       <div class="outside_homepage">
         <section class="hero homepage">
-            <h2>Mansfield's premier barbershop</h2>
+            <h1>Mansfield's premier barbershop</h1>
             <p>A throwback barbershop experience with a modern touch.</p>
             <?php echo "$BookBtn"; ?>
             <br>
