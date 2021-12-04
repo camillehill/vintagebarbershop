@@ -8,7 +8,7 @@
 ?>
 
 <h2>Our Story</h2>
-<div class="ourstory" id="ourstory_1stparagraph">
+<div class="ourstory single-column-container" id="ourstory_1stparagraph">
   <img class="storefrontimg" src="img/storefront.png">
   <p>Since May 2008, we've helped countless customers look their best. Whether you're getting ready for an interview, going on a date, or just in need of a trim, we have the skills and experience to help you look like a million bucks.</p>
 
@@ -25,7 +25,7 @@
   <p>Over a decade later, we're still just as passionate about helping you look your best.</p>
 </div>
 
-<div class="ourstory" id="ourstory_testimonials">
+<div class="ourstory single-column-container" id="ourstory_testimonials">
   <h2>Testimonials</h2>
   <div class="testimonial-box">
     <p>"I love Vintage Barbershop because they always do an outstanding job. I've never had one bad experience there. 5 stars!"<p>

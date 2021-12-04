@@ -10,7 +10,7 @@
   <main>
     <h2>Our Work</h2>
     <!--First 6 images -->
-    <div class="gallerypage">
+    <div class="gallerypage single-column-container">
       <section class="img_gallery">
         <img class="img_gallery" src="img/Gallery Images/Top 7 images/top6_6_171x250.png">
         <img class="img_gallery" src="img/Gallery Images/Top 7 images/top6_4_169x250.png">
@@ -21,7 +21,7 @@
       </section>
 
       <h2>Beards</h2>
-      <section class="img_gallery">
+      <section class="img_gallery single-column-container">
         <img class="img_gallery" src="img/Gallery Images/beards/beard_3_275x206.png">
         <img class="img_gallery" src="img/Gallery Images/beards/beard_5_220x275.png">
         <img class="img_gallery" src="img/Gallery Images/beards/beard_1_206x275.png">
@@ -30,7 +30,7 @@
       </section>
 
       <h2>Fades</h2>
-      <section class="img_gallery">
+      <section class="img_gallery single-column-container">
         <img class="img_gallery" src="img/Gallery Images/fades/fade_1_205x275.png">
         <img class="img_gallery" src="img/Gallery Images/fades/fade_2_733x733.png">
         <img class="img_gallery" src="img/Gallery Images/fades/fade_6_519x449.png">
@@ -40,13 +40,13 @@
       </section>
 
       <h2>Military Cuts</h2>
-      <section class="img_gallery">
+      <section class="img_gallery single-column-container">
         <img class="img_gallery" src="img/Gallery Images/military cuts/military_2_249x275.png">
         <img class="img_gallery" src="img/Gallery Images/military cuts/military_3_206x275.png">
       </section>
 
       <h2>We welcome children of all ages!</h2>
-      <section class="img_gallery">
+      <section class="img_gallery single-column-container">
         <img class="img_gallery" src="img/Gallery Images/Kids Cuts/kids_welcome_2_edited.png">
         <img class="img_gallery" src="img/Gallery Images/Kids Cuts/kids_welcome_3_edited.png">
         <img class="img_gallery" src="img/Gallery Images/Kids Cuts/kids_welcome_5_edited.png">

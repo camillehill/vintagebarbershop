@@ -12,13 +12,13 @@
 
     <main>
       <div class="outside_homepage">
-        <section class="hero homepage">
+        <section class="hero single-column-container">
             <h1>Mansfield's premier barbershop</h1>
             <p>A throwback barbershop experience with a modern touch.</p>
             <?php echo "$BookBtn"; ?>
             <br>
         </section>
-        <section class="services homepage">
+        <section class="services single-column-container">
           <h2 id="ourservices_h2">Our Services</h2>
           <table>
               <tr>
@@ -59,7 +59,7 @@
               </tr>
           </table>
         </section>
-        <section class="location-hours homepage">
+        <section class="location-hours single-column-container">
           <h2>Location & Hours</h2>
             <!-- Left side: Google maps iFrame -->
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13445.903655362958!2d-97.1414829!3d32.5934983!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x627fc974e11233b2!2sVintage%20Barbershop%20LLC!5e0!3m2!1sen!2sus!4v1636830523506!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -102,7 +102,7 @@
               </tr>
             </table>
         </section>
-        <section class="our_work homepage">
+        <section class="our_work single-column-container">
           <h2>Our Work</h2>
           <div id="ourwork_images">
             <img class="haircut" src="img/Gallery Images/Top 7 images/top6_3_189x250.png">
@@ -113,7 +113,7 @@
             <img class="haircut" src="img/Gallery Images/Top 7 images/top6_2_254x250.png">
           </div>
         </section>
-        <section class="homepage">
+        <section class="single-column-container">
           <h2>Our Staff</h2>
           <div class="our-staff">
             <div class="headshot">
@@ -134,7 +134,7 @@
             </div>
           </div>
         </section>
-        <section class="keeping-mansfield homepage">
+        <section class="keeping-mansfield single-column-container">
           <h2 id="keeping_h2">Keeping Mansfield Looking sharp since 2008</h2>
           <p>From hot lather shaves and beard sculpting to flat tops, fades and military cuts, you'll look your best when you leave our shop.</p>
           <br>
@@ -142,7 +142,7 @@
 
           <?php echo $BookBtn ?>
         </section>
-        <section class="testimonials homepage">
+        <section class="testimonials single-column-container">
           <h2>What Our Customers Are Saying:</h2>
           <div class="testimonial_card">
             <h3 class="testimonial_name">Andre Gonzalez</h3>
