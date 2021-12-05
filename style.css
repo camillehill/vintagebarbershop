@@ -33,7 +33,12 @@ a:hover{
 }
 a:active{
   color:black;
-  font-size:18;
+  font-size:18px;
+}
+
+a#addresslink-homepage {
+  color:cyan;
+  font-size:inherit;
 }
 /*********/
 /*HEADINGS FOR ALL PAGES*/

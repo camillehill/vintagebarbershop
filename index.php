@@ -66,9 +66,9 @@
 
           <br>
           <p>We are located at the southwest corner of the intersection of Highway 287 and Debbie Lane, just east of Spring Creek Barbecue.</p>
-          <p>Our address is:</p>
-          <p>26 E Debbie Ln #104</p>
-          <p>Mansfield, TX 76063</p>
+          <p>Our address is:
+          <a id="addresslink-homepage" href='https://www.google.com/maps/place/Vintage+Barbershop+LLC/@32.5934983,-97.1414829,15z/data=!4m2!3m1!1s0x0:0x627fc974e11233b2?sa=X&ved=2ahUKEwi6uZyh0M30AhUClWoFHZKXABQQ_BJ6BAhOEAU'>26 E Debbie Ln #104
+          Mansfield, TX 76063</a></p>
           <!-- Right side: text -->
 
             <!-- Commenting this part out b/c our google maps iframe already contains this info
