@@ -46,21 +46,66 @@
 
   	// after running through all expected fields, check the $missing array. if there is no required field missing, the $missing array will be empty.
   	if (empty($missing)){
-  		// empty($missing) is true --> no missing field, proceed with business processes (in this example, display all user input.)
+  		// empty($missing) is true; user entered required information. Now we want to send them a confirmation email and show a confirmation page on the browser)
+      $to="$email";
+      $subject="Your Appointment with Vintage Barbershop";
+      $header ="From: darin.hardin@mavs.uta.edu."."\r\n";
+      $header.="MIME-Version: 1.0\r\n";
+      $header.="Content-Type: text/html; charset=ISO-8859-1\r\n";
+      $message="
+        <html>
+         <body style='border: 2px dotted black;'>
+           <h1>Thanks for booking an appointment with <a href='https://ctec4309.dwh7624.uta.cloud/Current%20Assignment/Project%20Draft%2011-16/index.php'>Vintage Barbershop</a>!</h1>
+           <br>
+           <div style='border: 2px dotted white;'>
+           <h2>Details for your appointment:</h2>
+           <br>
+           <h3>Date: $date</h3>
+           <br>
+           <h3>Time: $time</h3>
+           <br>
+           <h3>Service requested: $service_type </h3>
+           <br>
+           <h3>Special Instructions:$specialinstructions</h3>
+           <br>
+           <br>
+           <h3>Need directions? Here's our address :</h3>
+           <br>
+           <p><a href='https://goo.gl/maps/XBSW6icQNw2idMVR8'>26 E Debbie Ln #104, Mansfield, TX 76063</a><p>
+           <br>
 
+           <strong>See you soon! If you need to cancel or reschedule an appointment, please call us at 817-123-1234</strong>
+           <br>
+           <p style='color:black'>Holly, Penni, Sean, Kendra and Nick</p>
+           </div>
+          </body>
+        </html>
+         ";
+
+      $mailSent = mail($to,$subject,$message,$header);
+
+      if ($mailSent) {
+
+         $emailResultMessage =  "<p>The web site admin team has been notified about your comment submission.  .... Thank you. We will ...";
+
+      } else {
+         $emailResultMessage = "<p>Something went wrong with our email system.  We are not able to send the email notification to our Web admin team regarding your comment submission.  Please try again or call 817-123-1234 to set up an appointment. ";
+      }
+
+      //Creating confirmation page and storing it in a string
   		$output = "
-  		<table style='border: 1px solid black; text-align:left;'>
-  		<th class='booking'>Thanks, $name! We'll see you on $date at $time.</th>
-      <br>
-      <br>
-      <br>
-      <tr><th>Show this confirmation at checkout for 20% off!</th></tr>
-  				<tr><th>Date:</th><td>$date</td> </tr>
-  				<tr><th>Time:</th><td>$time</td> </tr>
-  				<tr><th>Service:</th><td>$service_type</td> </tr>
-  				<tr><th>Special Instructions:</th><br><td>$specialinstructions</td> </tr>
-  		</table>
-  				";
+    		<table style='border: 1px solid black; text-align:left;'>
+    		<th class='booking'>Thanks, $name! We'll see you on $date at $time.</th>
+        <br>
+        <br>
+        <br>
+        <tr><th>Show this confirmation at checkout for 20% off!</th></tr>
+    				<tr><th>Date:</th><td>$date</td> </tr>
+    				<tr><th>Time:</th><td>$time</td> </tr>
+    				<tr><th>Service:</th><td>$service_type</td> </tr>
+    				<tr><th>Special Instructions:</th><br><td>$specialinstructions</td> </tr>
+    		</table>
+    				";
 
   	} else {
   		// empty($missing) is false --> $missing array is not empty -- prepare a message for the user
