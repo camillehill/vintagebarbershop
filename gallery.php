@@ -11,7 +11,7 @@
 
     <!--First 6 images -->
     <div class="gallerypage single-column-container">
-      <h1>Our Work</h1>
+      <h2>A Few Samples of Our Work</h2>
       <section class="img_gallery">
         <img class="img_gallery" src="img/Gallery Images/Top 7 images/top6_6_171x250.png">
         <img class="img_gallery" src="img/Gallery Images/Top 7 images/top6_4_169x250.png">
