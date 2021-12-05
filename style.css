@@ -1,5 +1,5 @@
 /*********/
-/*SINGLE-COLUMN LAYOUT FOR ALL PAGES*/
+/*STYLING AND SINGLE-COLUMN LAYOUT FOR ALL PAGES*/
 /*********/
 
 body{
@@ -8,8 +8,12 @@ body{
   width:70%;
   margin:0 auto;
   font-family:Arial, Segoe UI, sans-serif;
-
 }
+
+main{
+  color:white;
+}
+
 /*********/
 /*STYLING ALL LINKS*/
 /*********/
@@ -39,17 +43,24 @@ h1{
 
 h2{
   font-size:25;
-  text-align:center;}
+  text-align:center;
+  color:white;}
 
 h3{
-  font-size:19;}
+  font-size:19;
+  color:white;}
 
 h4{
   font-size:15;}
 
 p{
-  font-size:12;
-  font-weight:100;}
+  font-size:1.25rem;
+  color:white;
+  font-weight:100;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 
@@ -76,6 +87,7 @@ p{
   }
 
   .single-column-container{
+    background-color:black;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -278,6 +290,18 @@ img.storefrontimg{
   overflow:hidden;
 }
 
+/******************/
+/*Table Styling***/
+/******************/
+th{
+  font-size:1.25rem;
+}
+tr{
+  font-size:1.25rem;
+}
+td{
+  font-size:inherit;
+}
 
 
 
