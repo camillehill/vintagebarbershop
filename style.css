@@ -42,16 +42,20 @@ h1{
   font-size:2.5rem;}
 
 h2{
-  font-size:25;
   text-align:center;
-  color:white;}
+  color:white;
+  font-size: 2rem;
+  border-bottom: 5px dotted white;
+}
 
 h3{
   font-size:19;
-  color:white;}
+  color:white;
+}
 
 h4{
-  font-size:15;}
+  font-size:15;
+}
 
 p{
   font-size:1.25rem;
