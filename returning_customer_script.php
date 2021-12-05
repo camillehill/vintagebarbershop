@@ -56,7 +56,7 @@
       $message="
         <html>
          <body style='border: 2px dotted black;'>
-           <h1>Thanks for booking an appointment with <a href='https://ctec4309.dwh7624.uta.cloud/Current%20Assignment/Project%20Draft%2011-16/index.php'>Vintage Barbershop!</a></h1>
+           <h1>Thanks for booking an appointment with <a href='https://ctec4309.dwh7624.uta.cloud/Current%20Assignment/Project%20Draft%2011-16/index.php'>Vintage Barbershop</a>!</h1>
            <br>
            <div style='border: 2px dotted white;'>
            <h2>Details for your appointment:</h2>
@@ -93,7 +93,7 @@
          $emailResultMessage =  "<p>The web site admin team has been notified about your comment submission.  .... Thank you. We will ...";
 
       } else {
-         $emailResultMessage = "<p>Something went wrong with our email system.  We are not able to send the email notification to our Web admin team regarding your comment submission.  Please ... ";
+         $emailResultMessage = "<p>Something went wrong with our email system.  We are not able to send the email notification to our Web admin team regarding your comment submission.  Please try again or call 817-123-1234 to set up an appointment. ";
       }
 
 
