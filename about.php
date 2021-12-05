@@ -7,8 +7,9 @@
     echo "$header";
 ?>
 
-<h2>Our Story</h2>
+
 <div class="ourstory single-column-container" id="ourstory_1stparagraph">
+  <h2>Our Story</h2>
   <img class="storefrontimg" src="img/storefront.png">
   <p>Since May 2008, we've helped countless customers look their best. Whether you're getting ready for an interview, going on a date, or just in need of a trim, we have the skills and experience to help you look like a million bucks.</p>
 
