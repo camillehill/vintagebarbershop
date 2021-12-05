@@ -13,7 +13,7 @@
     <main>
       <div class="outside_homepage">
         <section class="hero single-column-container">
-            <h1>Mansfield's premier barbershop</h1>
+            <h1>Mansfield's Premier Barbershop</h1>
             <p>A throwback barbershop experience with a modern touch.</p>
             <?php echo "$BookBtn"; ?>
             <br>
@@ -185,7 +185,7 @@
             <a href="https://www.yelp.com/biz/vintage-barbershop-mansfield"><img src="img/yelpstars.png" id="yelpstars" class="credibility-badge" width="200px"></a>
             <a href="https://www.google.com/search?q=vintage+barber+shop+mansfield+tx&oq=vintage+baber&aqs=chrome.2.69i57j0i10i433i457j0i402j46i10i175i199j0i10l6.3987j0j9&sourceid=chrome&ie=UTF-8#lrd=0x864e617752c739cb:0x627fc974e11233b2,1,,,"><img src="img/googlereviews.png" id="googlereviews" class="credibility-badge" width="200px"></a>
           </div>
-          
+
         </section>
 
         </div>
