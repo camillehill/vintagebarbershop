@@ -314,12 +314,15 @@ table{
 }
 th{
   font-size:1.25rem;
+  color:white;
 }
 tr{
   font-size:1.25rem;
+  color:white;
 }
 td{
   font-size:inherit;
+  color:white;
 }
 
 

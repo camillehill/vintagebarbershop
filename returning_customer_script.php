@@ -102,7 +102,7 @@
       //Creating the output for the browser's confirmation page
   		$output = "
       <h3>Welcome back! Your appointment for $date is set.</h3>
-  		<table style='border: 1px solid black; text-align:left;'>
+  		<table class='single-column-container' style='border: 1px solid black; text-align:left;'>
   		<th>We've sent you a confirmation email to the following email address: $email</th>
   				<tr><th>Date:</th><td>$date</td></tr>
   				<tr><th>Time:</th><td>$time</td></tr>

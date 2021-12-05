@@ -94,7 +94,7 @@
 
       //Creating confirmation page and storing it in a string
   		$output = "
-    		<table style='border: 1px solid black; text-align:left;'>
+    		<table class='single-column-container' style='border: 1px solid black; text-align:left;'>
     		<th class='booking'>Thanks, $name! We'll see you on $date at $time.</th>
         <br>
         <br>
