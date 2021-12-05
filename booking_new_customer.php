@@ -14,7 +14,7 @@
   * Required fields
   <br>
 	Name * : <input type="text" name="name"><br/>
-	Email : <input type="text" name="email"><br/>
+	Email* : <input type="text" name="email"><br/>
 	Phone number * : <input type="text" name="phonenumber"><br/>
   Date*: <input type="date" name="date"><br/>
   Time*: <input type="time" name="time"><br/>

@@ -3,7 +3,7 @@
     echo $HTMLHeader;
     echo $header;
 ?>
-<!-- We just need to modify the code below so that it works with our form from the booking.php file -->
+<!-- We just need to modify the code below so that it works with our form from the booking_returning_customer.php file -->
 <?php
   if (array_key_exists("SubmitThis", $_POST)) {
 
@@ -11,7 +11,7 @@
   	//  - check required fields
 
   	//== Modify the required and expected arrays below to fit your form ========
-  	$required = array('phonenumber','service_type','date','time');
+  	$required = array('email','service_type','date','time');
   	$expected = array('phonenumber','email','service_type','specialinstructions','date','time');
   	$missing = array();
 
@@ -42,33 +42,85 @@
   			${$thisField} = $thisUserInput;
   		}
   	}
-
-
   	// after running through all expected fields, check the $missing array. if there is no required field missing, the $missing array will be empty.
   	if (empty($missing)){
-  		// empty($missing) is true --> no missing field, proceed with business processes (in this example, display all user input.)
+  		// empty($missing) is true --> there were no missing fields.
+      //  Show a confirmation page AND send a confirmation email.
 
+      //Setting up the confirmation email
+      $to="$email";
+      $subject="Your Appointment with Vintage Barbershop";
+      $header ="From: darin.hardin@mavs.uta.edu."."\r\n";
+      $header.="MIME-Version: 1.0\r\n";
+      $header.="Content-Type: text/html; charset=ISO-8859-1\r\n";
+      $message="
+        <html>
+         <body style='border: 2px dotted black;'>
+           <h1>Thanks for booking an appointment with <a href='https://ctec4309.dwh7624.uta.cloud/Current%20Assignment/Project%20Draft%2011-16/index.php'>Vintage Barbershop!</a></h1>
+           <br>
+           <div style='border: 2px dotted white;'>
+           <h2>Details for your appointment:</h2>
+           <br>
+           <h3>Date: $date</h3>
+           <br>
+           <h3>Time: $time</h3>
+           <br>
+           <h3>Service requested: $service_type </h3>
+           <br>
+           <h3>Special Instructions:$specialinstructions</h3>
+           <br>
+           <br>
+           <h3>Need directions? Here's our address :</h3>
+           <br>
+           <p><a href='https://goo.gl/maps/XBSW6icQNw2idMVR8'>26 E Debbie Ln #104, Mansfield, TX 76063</a><p>
+           <br>
+
+           <strong>See you soon! If you need to cancel or reschedule an appointment, please call us at 817-123-1234</strong>
+           <br>
+           <p style='color:black'>Holly, Penni, Sean, Kendra and Nick</p>
+           </div>
+          </body>
+        </html>
+
+         ";
+
+
+
+      $mailSent = mail($to,$subject,$message,$header);
+
+      if ($mailSent) {
+
+         $emailResultMessage =  "<p>The web site admin team has been notified about your comment submission.  .... Thank you. We will ...";
+
+      } else {
+         $emailResultMessage = "<p>Something went wrong with our email system.  We are not able to send the email notification to our Web admin team regarding your comment submission.  Please ... ";
+      }
+
+
+
+
+      //Creating the output for the browser's confirmation page
   		$output = "
+      <h3>Welcome back! Your appointment for $date is set.</h3>
   		<table style='border: 1px solid black; text-align:left;'>
-  		<th>Hi James! We're excited to see you again on $date. Here are your appointment details:</th>
+  		<th>We've sent you a confirmation email to the following email address: $email</th>
   				<tr><th>Date:</th><td>$date</td></tr>
   				<tr><th>Time:</th><td>$time</td></tr>
   				<tr><th>Service:</th><td>$service_type</td></tr>
   				<tr><th>Special Instructions:</th><br><td>$specialinstructions</td></tr>
+
   		</table>
   				";
 
-  	} else {
+  	}
+    else {
   		// empty($missing) is false --> $missing array is not empty -- prepare a message for the user
-
   		$missingFieldList = implode(", ",$missing);
-  		$output = "The following fields are missing from your post, please go back and fill them in.  Thank you. <br>
+  		$output = "The following fields are missing from your appointment booking, please go back and fill them in.  Thank you. <br>
   						<b>Missing fields: $missingFieldList </b>
   					";
-
   	}
-
-
+    //If user accesses this page without submitting any form info, e.g. typing URL into address bar
   } else {
   	$output = "Please book an appointment using <a href='booking_script.php'>this form</a>.";
   }

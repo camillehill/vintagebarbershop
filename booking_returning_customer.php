@@ -15,12 +15,12 @@
 
     <h2>Returning Customers</h2>
     <br>
-    <h3><i>We remember you! Just enter your phone number and the date, time and service requested. We'll take care of the rest.</i></h3>
+    <h3><i>We remember you! Just enter your email, the date, the time and service requested. We'll take care of the rest.</i></h3>
     <br>
     * Required fields
     <br>
-
-  	Phone number * : <input type="text" name="phonenumber"><br/>
+    <!-- Eventually, pre-fill this form via cookie to remember this for future appointments -->
+  	Email * : <input type="text" name="email"><br/>
     Date*: <input type="date" name="date"><br/>
     Time*: <input type="time" name="time"><br/>
     Type of service * :
