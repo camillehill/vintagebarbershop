@@ -59,6 +59,7 @@ h3{
 }
 
 h4{
+  color:white;
   font-size:15;
 }
 
@@ -271,6 +272,8 @@ form{
   background-color:white;
 	border:3px solid black;
 }
+
+label{color:white;}
 
 
 
