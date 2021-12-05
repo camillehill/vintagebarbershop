@@ -341,3 +341,13 @@ img#SSLimage{
   height:auto;
   margin:0 auto;
 }
+
+/*********/
+/*Styling the Footer*/
+/*********/
+footer{
+  background-color:black;
+}
+a.footerlink{
+  color:white;
+}

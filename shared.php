@@ -26,10 +26,10 @@ $Navigationwithoutlogo =
 "
 <nav>
     <ul class=\"nav-items\">
-        <li class=\"nav-link\"><a href=\"index.php\">HOME</a></li>
-        <li class=\"nav-link\"><a href=\"about.php\">ABOUT</a></li>
-        <li class=\"nav-link\"><a href=\"gallery.php\">GALLERY</a></li>
-        <li class=\"nav-link\"><a href='new_or_returning.php'>BOOK NOW</a></li>
+        <li class=\"nav-link\"><a class='footerlink' href=\"index.php\">HOME</a></li>
+        <li class=\"nav-link\"><a class='footerlink' href=\"about.php\">ABOUT</a></li>
+        <li class=\"nav-link\"><a class='footerlink' href=\"gallery.php\">GALLERY</a></li>
+        <li class=\"nav-link\"><a class='footerlink' href='new_or_returning.php'>BOOK NOW</a></li>
     </ul>
 </nav>";
 
@@ -56,7 +56,7 @@ $footer =
     </div>
     <hr>
 
-    <p>© 2021 Vintage Barbershop, LLC | Disclaimer: this website was created for the Internet Marketing Communication course in Fall 2021, for educational purposes only. Visit <a href='https://www.thevintage-barbershop.com/'>Vintage Barbershop.com</a> for the actual company website. View our privacy policy <a href='https://www.termsfeed.com/live/c5414913-4b96-4802-9b17-eddf4e5778fa'>here</a>.</p>
+    <p>© 2021 Vintage Barbershop, LLC | Disclaimer: this website was created for the Internet Marketing Communication course in Fall 2021, for educational purposes only. Visit <a class='footerlink' href='https://www.thevintage-barbershop.com/'>Vintage Barbershop.com</a> for the actual company website. View our privacy policy <a class='footerlink' href='https://www.termsfeed.com/live/c5414913-4b96-4802-9b17-eddf4e5778fa'>here</a>.</p>
 </footer>
 </html>";
 

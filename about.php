@@ -46,9 +46,8 @@
     <h3>- Mohammad Zafdar of Mansfield, TX</h3>
     <br>
   </div>
+  <?php echo "$BookBtn";?>
 </div>
 
 
-<?php echo "$BookBtn";
-      echo "$footer";
-?>
+<?php   echo "$footer";?>
