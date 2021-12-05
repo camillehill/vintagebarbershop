@@ -171,6 +171,11 @@ p{
     /*KEEPNG MANSFIELD LOOKING SHARP SECTION */
 
     /*WHAT OUR CUSTOMERS ARE SAYING SECTION */
+    .badges{
+      background-color: white;
+      width: 60%;
+      border-radius: 10px;
+    }
 
 
 
@@ -293,6 +298,9 @@ img.storefrontimg{
 /******************/
 /*Table Styling***/
 /******************/
+table{
+  margin-bottom: 15px;
+}
 th{
   font-size:1.25rem;
 }
