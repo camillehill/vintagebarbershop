@@ -68,6 +68,7 @@
            <br>
            <h3>Special Instructions:$specialinstructions</h3>
            <br>
+           <h3>Show this discount code to your barber for 20% off your first order: FH36-FBHG-S7H7A</h3>
            <br>
            <h3>Need directions? Here's our address :</h3>
            <br>

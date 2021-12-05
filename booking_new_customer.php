@@ -28,6 +28,8 @@
   <br>
   <label for="special instructions">Special Instructions</label>
   <br/><textarea name="specialinstructions" placeholder = "Start typing....."rows="5" cols="40"></textarea><br>
+  <label for="donate five dollars to mansfield food bank?">(Optional) - Check the box below to donate $5 to the Mansfield Food Bank, and we'll match your donation!</label>
+  <input type="checkbox" name="donate" value="donate">
 	<input type="Submit" name="SubmitThis" value="Submit">
   </form>
 
