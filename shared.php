@@ -10,7 +10,7 @@ $HTMLHeader =
     <title>Vintage Barbershop | Mansfield, Dallas-Fort Worth</title>
 </head>";
 
-// mobile 
+// mobile
 $logo = "<img class='mobile-logo' src='img/logo/vintage_cropped.png' style='width:150px;' alt='vintage barbershop logo'>";
 $hamburger = "<img src='img/menu.png' alt='menu icon' style='width:25px;'>";
 
@@ -49,17 +49,17 @@ $MobileNavigation =
 </nav>";
 
 $BookBtn = "<button><a href='new_or_returning.php'>BOOK NOW</a></button>";
-$BookBtnNewCustomer ="<button><a href='booking_new_customer.php'>BOOK NOW</a></button>";
-$BookBtnReturningCustomer ="<button><a href='booking_returning_customer.php'>BOOK NOW</a></button>";
+$BookBtnNewCustomer ="<button><a href='booking_new_customer.php'>I'm a New Customer</a></button>";
+$BookBtnReturningCustomer ="<button><a href='booking_returning_customer.php'>I'm a Returning Customer</a></button>";
 $ViewGalleryBtn = "<button><a href='gallery.php'>View Gallery</a></button>";
 
-$Mobile = 
+$Mobile =
 "<div id='mobile-nav'>
     $logo
     <div class=\"menu\">
         $hamburger
         $MobileNavigation
-    </div>   
+    </div>
 </div>";
 
 $header =
