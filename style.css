@@ -1,5 +1,5 @@
 /*********/
-/*SINGLE-COLUMN LAYOUT FOR ALL PAGES*/
+/*STYLING AND SINGLE-COLUMN LAYOUT FOR ALL PAGES*/
 /*********/
 
 body{
@@ -8,8 +8,12 @@ body{
   width:70%;
   margin:0 auto;
   font-family:Arial, Segoe UI, sans-serif;
-
 }
+
+main{
+  color:white;
+}
+
 /*********/
 /*STYLING ALL LINKS*/
 /*********/
@@ -29,7 +33,12 @@ a:hover{
 }
 a:active{
   color:black;
-  font-size:18;
+  font-size:18px;
+}
+
+a#addresslink-homepage {
+  color:cyan;
+  font-size:inherit;
 }
 /*********/
 /*HEADINGS FOR ALL PAGES*/
@@ -38,18 +47,30 @@ h1{
   font-size:2.5rem;}
 
 h2{
-  font-size:25;
-  text-align:center;}
+  text-align:center;
+  color:white;
+  font-size: 2rem;
+  border-bottom: 5px dotted white;
+}
 
 h3{
-  font-size:19;}
+  font-size:19;
+  color:white;
+}
 
 h4{
-  font-size:15;}
+  color:white;
+  font-size:15;
+}
 
 p{
-  font-size:12;
-  font-weight:100;}
+  font-size:1.25rem;
+  color:white;
+  font-weight:100;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 
@@ -76,6 +97,7 @@ p{
   }
 
   .single-column-container{
+    background-color:black;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -98,15 +120,24 @@ p{
       background-image: url("img/mansfield_hero_cropped.png");
       background-size: cover;
       background-position: center;
+      box-shadow: rgb(0 0 0 / 15%) 0 0 0 1000000px inset;
       background-repeat: no-repeat;
-      width: 100%;
+      max-width: 100%;
       height: 50vh;
     }
+    /*Shadow overlay for hero section was modifed from example at https://digitalrumpus.wordpress.com/2017/09/09/applying-shadow-overlays-with-pure-css/ */
+
     .hero h1 {
-      font-size: 1.5em;
+      /*CSS Modified from Juan Brujo's CodePen https://codepen.io/juanbrujo/pen/yGpAK */
+      font-size: 4rem;
+      color: white;
+      letter-spacing: .1em;
+      text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgb(0 0 0 / 90%);
+
     }
     .hero p {
-      font-size: 1.5em;
+      font-size: 2.25rem;
+      text-shadow:2px 2px 8px #000000;
     }
 
     /*OUR SERVICES SECTION */
@@ -150,6 +181,11 @@ p{
     /*KEEPNG MANSFIELD LOOKING SHARP SECTION */
 
     /*WHAT OUR CUSTOMERS ARE SAYING SECTION */
+    .badges{
+      background-color: white;
+      width: 60%;
+      border-radius: 10px;
+    }
 
 
 
@@ -205,7 +241,6 @@ button {
   font-family:Arial, sans-serif;
   margin: auto;
 	font-size: 1em;
-	text-transform: capitalize;
 	background-color:white;
 	color:white;
   width:200px;
@@ -214,7 +249,7 @@ button {
   border:none;
   margin-top:10px;
   margin-bottom:15px;
-  background-image: linear-gradient(180deg, red, yellow);
+  background-image: linear-gradient(180deg, yellow, orange);
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);}
 
 
@@ -237,6 +272,8 @@ form{
   background-color:white;
 	border:3px solid black;
 }
+
+label{color:white;}
 
 
 
@@ -269,6 +306,24 @@ img.storefrontimg{
   overflow:hidden;
 }
 
+/******************/
+/*Table Styling***/
+/******************/
+table{
+  margin-bottom: 15px;
+}
+th{
+  font-size:1.25rem;
+  color:white;
+}
+tr{
+  font-size:1.25rem;
+  color:white;
+}
+td{
+  font-size:inherit;
+  color:white;
+}
 
 
 
@@ -290,49 +345,12 @@ img#SSLimage{
   margin:0 auto;
 }
 
-
-
 /*********/
-/* MOBILE STYLING */
+/*Styling the Footer*/
 /*********/
-/* #mobile-nav {
-  display: none; 
-} */
-#mobile-nav {
-  display:none;
+footer{
+  background-color:black;
 }
-.mobi-nav{
-  background:black;
-}
-.mobi-nav .nav-items .nav-link {
-  margin: 10px;
-}
-.mobi-nav .nav-items .nav-link a {
-  color: white;
-}
-.mobi-nav .nav-items .nav-link:hover {
-  background:rgba(82, 82, 82, 0.19);
-}
-.menu {
-  position: relative;
-}
-
-@media screen and (max-width: 992px) {
-  nav {
-    display: none; 
-  }
-  #mobile-nav {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .menu:hover .mobi-nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    position:absolute;
-    font-size: .5em;
-  }
+a.footerlink{
+  color:white;
 }
